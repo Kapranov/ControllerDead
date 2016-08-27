@@ -1,5 +1,6 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  myProp: 100
+  myProp: 100,
+  myService: Ember.inject.service()
 });
